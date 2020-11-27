@@ -1,0 +1,13 @@
+{
+   "manifest_version": 2,
+   "name": "Twitch AdBlock",
+   "description": "The description is literally in the title...",
+   "author": "Wengiel",
+   "version": "1.0.0",
+   "content_scripts": [{
+      "all_frames": true,
+      "js": ["index.js"],
+      "matches": ["*://*.twitch.tv/*"]
+   }],
+   "permissions": ["*://*.twitch.tv/*"]
+}
